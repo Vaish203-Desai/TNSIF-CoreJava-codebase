@@ -1,10 +1,13 @@
 package com.first;
 
-public class Hello {
+public class sum {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("hello World  I am !!");
+		int A=2;
+		int b=8 ;
+		System.out.println(A+b);
+		
 
 	}
 

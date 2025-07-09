@@ -1,6 +1,6 @@
 package com.MarkarDemo;
 
-public class IsRegister {
+public interface IsRegister {
 	
 
 }

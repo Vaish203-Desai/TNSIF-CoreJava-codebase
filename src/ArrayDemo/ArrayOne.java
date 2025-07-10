@@ -54,7 +54,7 @@ public class ArrayOne {
 		//displaying the array 
 		ArrayOperations.printArray(a);
 		
-		//assigning va;ues in array a
+		//assigning values in array a
 		for(int i=0; i<a.length; i++)
 		{
 			a[i]=5*i;

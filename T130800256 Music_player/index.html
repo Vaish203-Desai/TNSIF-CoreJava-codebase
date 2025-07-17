@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Music Player</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="player">
+        <div class="now-playing">
+            <img src="images/default.jpg" alt="Album Art" id="album-art">
+            <h2 id="song-title">Song Title</h2>
+            <p id="artist">Artist</p>
+        </div>
+        <audio id="audio" controls></audio>
+        
+        <div class="controls">
+            <button onclick="prevSong()">⏮️</button>
+            <button onclick="togglePlay()">⏯️</button>
+            <button onclick="nextSong()">⏭️</button>
+        </div>
+        <div class="playlist" id="playlist"></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
